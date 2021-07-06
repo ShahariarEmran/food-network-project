@@ -19,7 +19,9 @@ section{
 .half-width image{
     width: 80%;
 }
-
+.half-width img{
+    margin-top: 30px;
+}
 .link-button{
     text-decoration: none;
     background-image: linear-gradient(orange ,tomato);
@@ -35,20 +37,34 @@ section{
     background-position: right;
     background-size: 100% 100%;
 }
+.center{
+    text-align: center;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.box-shodow{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 30px #ddd;
+}
+.box-shodow image{
+    width: 80%;
+}
+.text{
+    background-color: rgb(43, 29, 29);
+}
+.text p{
+    padding-bottom: 80px;
+    text-decoration-color: white;
+}
+div{
+    text-align: center;
+}
+#footer-color p{
+    color: white;
+}
+#footer-color h2{
+    color: gray;
+}
